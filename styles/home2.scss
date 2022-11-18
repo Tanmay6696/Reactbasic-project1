@@ -1,0 +1,40 @@
+@import "./colors";
+#showcasemain {
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+    overflow: auto;
+    padding-bottom:50px;
+   
+    >.showcaseimg {
+        float: left;
+        width: 40%;
+    }
+    >.showcasedata {
+        float: right;
+        width: 50%;
+        padding-top: 60px;
+        text-align:center;
+    }
+}
+
+#showcasemain2 {
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+    overflow: auto;
+    padding-bottom:50px;
+    >.showcaseimg2 {
+        float: right;
+        width: 40%;
+    }
+    >.showcasedata2 {
+        float: left;
+        width: 50%;
+        padding-top: 60px;
+        text-align:center;
+    }
+}
+
+
+

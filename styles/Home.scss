@@ -1,0 +1,129 @@
+@import "./colors";
+#top-section {
+    height: 750px;
+    width: auto;
+    background-image: url('../asstes/start\ image.jpg'); 
+}
+#top-content p {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: center;
+}
+#top-content {
+    margin-left:auto;
+    margin-right:auto;
+}
+#top-content h1 {
+    color: white;
+    font-size:4em;
+    font-weight:100;
+    text-align:center;
+    margin-top: 0px;
+    padding-top:50px;
+    padding-bottom:15px;
+    
+}
+#top-section {
+    height: 750px;
+    width: auto;
+}
+
+#feature-section
+{
+    > h1 {
+        text-align: center;
+        margin:auto;
+        font-size: 2.7em;
+        font-weight: 500;
+        line-height:1.5em;
+    }
+    >.feature-content {        
+        margin: auto;
+    margin-bottom:0;
+    width: 80%;
+    height:650px;
+    text-align: center;
+    padding-top:90px;
+        
+    
+    }.col-3{
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+    >.col-3 p{
+        
+        font-size:.9em;
+        letter-spacing:1px;
+
+    }
+  
+    
+    
+
+}
+#showcasemain {
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+    position: relative;
+   // overflow: auto;
+    padding-bottom:50px;
+   
+    >.showcaseimg {
+        float: left;
+        width: 40%;
+    }
+    >.showcasedata {
+        float: right;
+        width: 50%;
+        padding-top: 60px;
+        text-align:center;
+    }
+}
+
+#showcasemain2 {
+    background-color: #f6f8fa;
+    width: 100%;
+    position: relative;;
+    clear: both;
+    //overflow: auto;
+    padding-bottom:50px;
+    >.showcaseimg2 {
+        float: right;
+        width: 50%;
+    }
+    >.showcasedata2 {
+        float: left;
+        width: 50%;
+        padding-top: 60px;
+        text-align:center;
+    }
+}
+#try {    
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/435/542/549/javascript-google-node-js-html-microsoft-visual-studio-hd-wallpaper-37820829361743c78ebe5d791ed75946.jpg?timestamp=1665856326647');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    >.tryh1
+    {
+        color:white;
+        text-align:center
+    }
+    >.trypara
+    {
+        text-align:center;
+        color:white
+    }
+    >.but{text-align:center;vertical-align: bottom}
+    >.tryButton {
+        background-color: green;    
+        color:white ;
+        font:bold;     
+        padding: 17px 17px 17px 17px;
+        border-radius: 20px;
+    }
+}
+
